@@ -10,7 +10,7 @@ This project is a mobile application built with **React Native** and **Expo** th
 * **Destination Exploration:** Users can browse a list of top destinations and view detailed information for each.
 * **Trip Booking:** A dedicated booking screen allows users to input travel details like destination, dates, and number of travelers.
 * **Travel Tips:** Provides a collection of useful tips and advice for a smooth and safe journey.
-* **About Us & Team Info:** Includes screens that provide information about the app and the team behind it.
+* **About Us:** Includes screens that provide information about the app.
 * **Intuitive UI:** The app is designed with a clean and modern user interface, built using React Native's core components and styling.
 
 ***
@@ -36,7 +36,6 @@ The project is organized into modular `.jsx` files, with each file representing 
 * `TravelTips.jsx`: Contains a list of helpful travel tips.
 * `WelcomeScreen.jsx`: The initial welcome screen for the app.
 * `index.jsx`: The entry point for the Expo app.
-* `teamInfoScreen.jsx`: Displays information about the development team.
 
 ***
 
