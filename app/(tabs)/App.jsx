@@ -8,7 +8,6 @@ import DestinationDetails from './screens/DestinationDetails';
 import Explore from './screens/Explore';
 import TravelTips from './screens/TravelTips';
 import WelcomeScreen from './screens/WelcomeScreen';
-import TeamInfoScreen from './screens/teamInfoScreen';
 
 import LoginScreen from './screens/LoginScreen';
 import RegistrationScreen from './screens/RegistrationScreen';
@@ -95,8 +94,9 @@ export default function App() {
         <Drawer.Screen name="Explore" component={ExploreStack} />
         <Drawer.Screen name="Book a Trip" component={Booking} />
         <Drawer.Screen name="Travel Tips" component={TravelTips} />
-        <Drawer.Screen name="Team Info" component={TeamInfoScreen} />
+        <Drawer.Screen name="About Us" component={AboutUs} />
       </Drawer.Navigator>
     </NavigationContainer>
   );
 }
+
